@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.main__title {
+  display: block;
+  text-align: center;
+}
+
+.button__box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.saying__btn {
+  text-decoration: none;
+  background-color: lightblue;
+}
+
+.insult__btn {
+  text-decoration: none;
+  background-color: lightblue;
+}
