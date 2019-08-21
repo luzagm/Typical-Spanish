@@ -42,6 +42,7 @@
 }
 
 .saying__answer {
+  padding: 0 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,9 +80,16 @@
 
   .saying__answer {
     height: 250px;
+    width: 600px;
   }
 
   .saying__par {
     font-size: 28px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .saying__answer {
+    width: 800px;
   }
 }
