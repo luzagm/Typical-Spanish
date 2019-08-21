@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Sayings</title>
+    <link rel="stylesheet" href="./assets/css/layouts/sayings.css">
 </head>
+
 <body>
 
     <header>
    <a class="main__link" href="index.html"><h1 class="main__logo">Typical Spanish</h1></a>
 </header>
-    <main>
-        <h2>
+    <main class="sayings__main__box">
+        <h2 class="sayings__title">
             ¿Qué dicho típico necesitas hoy?
         </h2>
-        <p>La sabiduaría de tus abuelos traída a nuestros días</p>
+        <p class="sayings__description">Te traemos la sabiduaría popular de nuestros abuelos por si necesitas un empujón, un consejo o unas palabras que,simplemente, te motiven y te alegren el día. </p>
         <button class="sayings__button js-sayings-button">Ilumíname</button>
-        <section class="saying__answer js-saying-answer" id="sayings-id">
+        
+        <section class="sayings__section__box">
+            <div class="saying__answer js-saying-answer" id="sayings-id"></div>
                 
             </section>
     </main>

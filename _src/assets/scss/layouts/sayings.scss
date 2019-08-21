@@ -1,0 +1,87 @@
+@import "reset";
+
+.main__logo {
+  margin: 0;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.sayings__main__box {
+  width: 100vw;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sayings__title {
+  margin: 0;
+  padding: 0 15px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.sayings__description {
+  padding: 0 15px;
+  margin-bottom: 36px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.sayings__button {
+  margin: 30px 0;
+  text-decoration: none;
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border-radius: 50px;
+  border: 2px solid rgb(255, 115, 0);
+  background-color: rgb(255, 115, 0);
+}
+
+.saying__answer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.saying__par {
+  padding: 0 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .sayings__title {
+    font-size: 42px;
+  }
+
+  .sayings__description {
+    margin-bottom: 48px;
+    font-size: 22px;
+  }
+
+  .sayings__button {
+    text-decoration: none;
+    height: 60px;
+    width: 200px;
+    font-size: 22px;
+  }
+
+  .sayings__button:hover {
+    color: rgb(255, 115, 0);
+    border: 4px solid rgb(255, 115, 0);
+    background-color: white;
+  }
+
+  .saying__answer {
+    height: 250px;
+  }
+
+  .saying__par {
+    font-size: 28px;
+  }
+}

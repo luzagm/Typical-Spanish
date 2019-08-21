@@ -12,19 +12,21 @@ const sayings = [
 ];
 
 function getRandomNumber(min, max) {
-  const randomNumber = Math.round(Math.random() * (max - min) + min);
+  const randomNumber = Math.round(Math.random() * (max - min));
   return randomNumber;
 }
 
+let newSaying = "";
 const sayingsGenerator = () => {
   const numberResult = getRandomNumber(0, 4);
-  // sayingSection.innerHTML = sayings[numberResult];
+  sayingSection.innerHTML = `<p class="saying__par"><em>${
+    sayings[numberResult]
+  }</em></p>`;
 
-  sayingSection = document.createTextNode(sayings[numberResult]);
-  //   const newContent = document.createElement("p");
-  //   const newSaying = document.createTextNode(`${sayings[numberResult]}`);
-  //   newContent.appendChild(newSaying);
-  //   sayingSection.appendChild(newContent);
+  // const newContent = document.createElement("p");
+  // const newSaying = document.createTextNode(sayings[numberResult]);
+  // newContent.appendChild(newSaying);
+  // sayingSection.appendChild(newContent);
 
   console.log(sayings[numberResult]);
 };
