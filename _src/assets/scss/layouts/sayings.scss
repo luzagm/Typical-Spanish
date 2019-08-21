@@ -37,22 +37,35 @@
   font-weight: bold;
   color: white;
   border-radius: 50px;
-  border: 2px solid rgb(255, 115, 0);
+  border: 4px solid rgb(255, 115, 0);
   background-color: rgb(255, 115, 0);
 }
 
 .saying__answer {
   padding: 0 30px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 150px;
 }
 
 .saying__par {
+  margin: 0;
   padding: 0 15px;
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
+}
+
+.saying__translation {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 7px;
+}
+
+.favorite__star {
+  font-size: 36px;
+  color: rgb(255, 115, 0);
 }
 
 @media all and (min-width: 768px) {
